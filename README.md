@@ -1,11 +1,10 @@
 # API Star Wars Planets
 
 Aplicação desenvolvida para realizar os testes desta prospecção simula um sistema de informações planetárias da franquia Star Wars.
-![Schema API Star Wars.png](./Imagens/Schema API Star Wars.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/c705d040-e727-4022-81ba-4439c8d85006)
 
 Esta aplicação possui o MongoDB como seu Banco de Dados e conta com a implementação de TDD.
-
-![Tipos de Teste Automatizados.png](./Imagens/Tipos de Teste Automatizados.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/e5e7ad27-0216-4b03-a7a9-e6aa1dd4454f)
 
 ### Tecnologias Empregadas
 - [Mysql](https://dev.mysql.com/downloads/mysql/)
