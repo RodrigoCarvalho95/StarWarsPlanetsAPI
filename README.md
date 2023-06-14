@@ -104,7 +104,7 @@ CREATE DATABASE starwars;
 
 \q
 ```
-Durante os testes, as tabelas de banco já serão criadas automaticamente no banco de dados H2, que armazenaram informações sobre os testes.
+Durante os testes, as tabelas de banco já serão criadas automaticamente no banco de dados.
 
 
 
