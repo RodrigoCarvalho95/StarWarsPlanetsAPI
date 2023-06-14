@@ -7,7 +7,7 @@ Esta aplicação possui o MongoDB como seu Banco de Dados e conta com a implemen
 ![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/e5e7ad27-0216-4b03-a7a9-e6aa1dd4454f)
 
 ### Tecnologias Empregadas
-- [Mysql](https://dev.mysql.com/downloads/mysql/)
+- [Postgrees](https://www.postgresql.org/download/)
 - [H2](https://www.h2database.com/html/main.html)
 - [Java](https://www.oracle.com/java/technologies/downloads/)
 - [Maven](https://maven.apache.org/download.cgi)
@@ -88,23 +88,23 @@ Os testes de mutante são feitos para avaliarem a qualidade da bateria de casos 
 ![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/19415a87-b98e-41a7-b003-cb70bb40984b)
 
 ## Configuração
-O projeto requer um banco de dados Mysql, então é necessário criar uma base de dados com os seguintes comandos:
+O projeto requer um banco de dados Postgrees, então é necessário criar uma base de dados com os seguintes comandos:
 
 ```
-$ sudo mysql
+$ sudo -u postgres psql
 
-CREATE USER 'user'@'%' IDENTIFIED BY '123456';
-GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;
+CREATE USER root WITH PASSWORD 'root';
+GRANT ALL PRIVILEGES ON DATABASE postgres TO root;
 
-exit
+\q
 
-$ mysql -u user -p
+$ psql -U user -W
 
 CREATE DATABASE starwars;
 
-exit
+\q
 ```
-Durante os testes, as tabelas de banco já serão criadas automaticamente no banco de dados.
+Durante os testes, as tabelas de banco já serão criadas automaticamente no banco de dados H2, que armazenaram informações sobre os testes.
 
 
 
