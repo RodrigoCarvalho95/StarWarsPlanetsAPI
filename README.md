@@ -56,37 +56,37 @@ Vale ressaltar que:
 
 ## Divisão de Execução dos Testes
 A divisão da execução dos testes foi feita por meio do Plugin Surefire.
-![Plugin Surefire.png](./Imagens/Plugin Surefire.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/104e822c-317a-4e51-b7bc-c422c3450254)
 
 ### Execução Testes Leves (Unidade e Integração)
-![Run Configuration Testes de Unidade e Integração.png](./Imagens/Run Configuration Testes de Unidade e Integração.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/e1c00763-e75a-482d-aa3a-260926717c12)
 
 ### Execução Testes Pesados (Componente)
-![Run Configuration Testes SubCutaneo.png](./Run Configuration Testes SubCutaneo.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/1bc7cfe6-3c38-4408-b853-1721b9015f40)
 
 ### Execução Todos Testes
-![Run Configuration Todos Testes.png](./Imagens/Run Configuration Todos Testes.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/cef74a90-ef21-4936-8df3-7fc32a8f4784)
 
 ### Jacoco: Análise de Cobertura de Testes
 A cobertura de teste baseada em código mede a quantidade de códigos executada durante o teste, em comparação à quantidade de códigos com execução pendente. A cobertura de código pode se basear em fluxos de controle (instrução, ramificação ou caminhos) ou fluxos de dados.
 
 #### Relatório de Cobertura
-![Cobertura Geral.png](./Imagens/Cobertura Geral.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/e45fdea4-98da-4cdd-b7f6-05ae335c0074)
 
 #### Run Configuration
-![Run Configuration Jacoco Report.png](./Imagens/Run Configuration Jacoco Report.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/a3777afc-f140-45cb-96ad-5a0b7a7502ab)
 
 ### Pintest: Análise de Testes Mutantes
 Os testes de mutante são feitos para avaliarem a qualidade da bateria de casos de testes automatizados. A ideia principal é modificar, ou melhor, mutar uma pequena parte de código a ser testado e verificar se o teste automatizado irá detectar esta mutação. Se não detectar a mutação se torna um teste em vão.
 
 #### Relatório de Testes Mutantes
-![Testes Mutantes.png](./Imagens/Testes Mutantes.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/e9032a3a-417d-4e51-9329-90753e77eebf)
 
 #### Runtime Statistics
-![Estatisticas de Execução.png](./Imagens/Estatisticas de Execução.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/0d5a7a78-d748-44ea-8e07-a7425f3aa627)
 
 #### Run Configuration
-![Run Configuration Pitest Report-1.png](./Run Configuration Pitest Report-1.png)
+![image](https://github.com/RodrigoCarvalho95/StarWarsPlanetsAPI/assets/12175629/19415a87-b98e-41a7-b003-cb70bb40984b)
 
 ## Configuração
 O projeto requer um banco de dados Mysql, então é necessário criar uma base de dados com os seguintes comandos:
